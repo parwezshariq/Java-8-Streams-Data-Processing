@@ -57,7 +57,7 @@ public class Shakespeare {
         System.out.println("# words of Scrabble : " + scrabbleWords.size());
 
         // Create an array which consists of point or scores corresponding to each character of alphabets
-        final int [] scrabbleENScore = {
+        final int[] scrabbleENScore = {
                 //  a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p,  q, r, s, t, u, v, w, x, y, z
                     1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10} ;
 
@@ -89,7 +89,7 @@ public class Shakespeare {
         System.out.println("# words of Scrabble : " + scrabbleWords.size());
 
         // Create an array which consists of point or scores corresponding to each character of alphabets
-        final int [] scrabbleENScore = {
+        final int[] scrabbleENScore = {
                 //  a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p,  q, r, s, t, u, v, w, x, y, z
                 1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10} ;
 
@@ -111,7 +111,7 @@ public class Shakespeare {
                 .max(Comparator.comparing(score)).get();
 
         // Print the highest scoring word from shakespeare file
-        System.out.println("Best word: " +  bestWord);
+        System.out.println("Best word: " + bestWord);
     }
 
     private static void dataProcessingStreamOfNumbersOperationFour() throws IOException {
@@ -130,7 +130,7 @@ public class Shakespeare {
         System.out.println("# words of Scrabble : " + scrabbleWords.size());
 
         // Create an array which consists of point or scores corresponding to each character of alphabets
-        final int [] scrabbleENScore = {
+        final int[] scrabbleENScore = {
                 //  a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p,  q, r, s, t, u, v, w, x, y, z
                 1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10} ;
 
@@ -152,7 +152,7 @@ public class Shakespeare {
                 .max(Comparator.comparing(score)).get();
 
         // Print the highest scoring word from shakespeare file
-        System.out.println("Best word: " +  bestWord);
+        System.out.println("Best word: " + bestWord);
 
         // Get intSummaryStatistics on shakespeare words file, by using ToIntFunction
         IntSummaryStatistics summaryStatistics = shakespeareWords.stream()
